@@ -14,8 +14,7 @@ document.getElementById('generateBtn').addEventListener('click', async function(
 
     const file = imageInput.files[0];
     const formData = new FormData();
-    formData.append('image', file);
-
+    formData.append('image',...);
     // 2. UI States Change Karna (Loading Shuru)
     videoPlaceholder.classList.add('hidden');
     videoLoading.classList.remove('hidden');
